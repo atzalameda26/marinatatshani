@@ -24,7 +24,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
           </svg>
         </label>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-extrabold">
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-stone-200 rounded-box w-52 font-extrabold">
           <li><a href="about" class="hover:text-[#A697AD]">ABOUT</a></li>
           <li><a href="resume" class="hover:text-[#A697AD]">RESUME</a></li>
           <li><a href="" class="hover:text-[#A697AD]">GRAPHIC</a></li>
@@ -57,9 +57,9 @@
   <div class="container mx-auto px-5 md:px-10 xl:px-0">
     <!-- TEXT HEADER -->
     <div class="py-20 md:py-40 grid grid-cols-1 gap-2 lg:gap-4">
-      <p class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:font-bold">Hey I’m Marina and I am a</p>
-      <p class="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:font-bold">multidisciplinary digital designer</p>
-      <p class="text-base md:text-lg lg:text-xl xl:text-2xl font-bold lg:font-semibold">in the field of graphic design, 3D art, and furniture design.</p>
+      <p class="text-4xl lg:text-5xl xl:text-6xl font-bold">Hey I’m Marina and I am a</p>
+      <p class="text-4xl lg:text-5xl xl:text-6xl font-bold">multidisciplinary digital designer</p>
+      <p class="text-xl xl:text-2xl font-semibold">in the field of graphic design, 3D art, and furniture design.</p>
     </div>
 
     <div class="flex flex-col">
@@ -67,21 +67,19 @@
       <p class="text-xl xl:text-2xl font-bold text-[#678309] pb-5">WORKS</p>
       <!-- GALLERY -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        <div class="lg:col-span-2 grid grid-rows-2 gap-5">
-          <div>
-            <div class="content">
-              <a href="">
-                <div class="content-overlay"></div>
-                <img
-                  class="content-image rounded-lg"
-                  src="images/graphic-design-cover.png"
-                  alt="image"
-                >
-                <div class="content-details fadeIn-top">
-                  <h3 class="content-title">Graphic Design</h3>
-                </div>
-              </a>
-            </div>
+        <div class="col-span-1 lg:col-span-2 grid grid-rows-2 gap-5">
+          <div class="content">
+            <a href="">
+              <div class="content-overlay"></div>
+              <img
+                class="content-image rounded-lg"
+                src="images/graphic-design-cover.png"
+                alt="image"
+              >
+              <div class="content-details fadeIn-top">
+                <h3 class="content-title">Graphic Design</h3>
+              </div>
+            </a>
           </div>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
             <div class="content h-full">
@@ -113,12 +111,25 @@
           </div>
         </div>
         <div class="col-span-1">
-          <div class="content">
+          <div class="content hidden lg:block">
             <a href="">
               <div class="content-overlay"></div>
               <img
                 class="content-image rounded-lg"
                 src="images/3d-projects-cover.png"
+                alt="image"
+              >
+              <div class="content-details fadeIn-top">
+                <h3 class="content-title">3D Projects</h3>
+              </div>
+            </a>
+          </div>
+          <div class="content block lg:hidden">
+            <a href="">
+              <div class="content-overlay"></div>
+              <img
+                class="content-image rounded-lg"
+                src="images/graphic-design-cover.png"
                 alt="image"
               >
               <div class="content-details fadeIn-top">
@@ -155,7 +166,7 @@
         <div class="grid grid-cols-1 gap-2 pt-10">
           <p class="text-xl xl:text-2xl font-bold text-[#678309]">OR HEAD STRAIGHT TO MY RESUME</p>
           <p class="text-base">A summary of my work experience.</p>
-          <a href="about">
+          <a href="resume">
             <button class="btn normal-case btn-neutral">
               resume →
             </button>
