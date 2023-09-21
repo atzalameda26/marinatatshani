@@ -1,100 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
 body {
-    background:#E6E4D4;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 500;
+  background:#E6E4D4;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 500;
 }
 
 .baseColor {
-    background:#E6E4D4;
+  background:#E6E4D4;
 }
 
 .navbar {
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.main {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 footer {
-    padding-left: 10%;
-    padding-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn-neutral {
+  background-color: black;
+  font-size: 17px;
+  border-radius: 35px;
 }
 
 .content {
-    position: relative;
-    margin: auto;
-    overflow: hidden;
-  }
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
 
-  .content .content-overlay {
-    background: rgba(189,195,199,0.5);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
-  }
+.content .content-overlay {
+  background: rgba(189,195,199,0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
 
-  .content:hover .content-overlay{
-    opacity: 1;
-  }
+.content:hover .content-overlay{
+  opacity: 1;
+}
 
-  .content-details {
-    position: absolute;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-  }
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
 
-  .content:hover .content-details{
-    top: 50%;
-    left: 50%;
-    opacity: 1;
-  }
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
 
-  .content-details h3{
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
-    font-size: x-large;
-  }
+.content-details h3{
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: x-large;
+}
 
-  .content-details{
-    color: #fff;
-  }
+.content-details{
+  color: #fff;
+}
 
-  .fadeIn-bottom{
-    top: 80%;
-  }
+.fadeIn-bottom{
+  top: 80%;
+}
 
-  .fadeIn-top{
-    top: 20%;
-  }
+.fadeIn-top{
+  top: 20%;
+}
 
-  .fadeIn-left{
-    left: 20%;
-  }
+.fadeIn-left{
+  left: 20%;
+}
 
-  .fadeIn-right{
-    left: 80%;
-  }
+.fadeIn-right{
+  left: 80%;
+}
