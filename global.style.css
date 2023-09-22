@@ -32,11 +32,16 @@ footer {
   color: #E9E5D7;
   background-color: black;
   font-size: 17px;
+  font-weight: 500;
   border-radius: 35px;
 }
 
 .btn-neutral:hover {
-  background-color: black;
+  background-color: #E6E4D4;
+  color: #A697AD;
+  border-color: #A697AD;
+  font-weight: 700;
+  border-width: medium;
 }
 
 .navbar-end {
