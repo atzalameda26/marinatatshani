@@ -35,8 +35,12 @@ footer {
   border-radius: 35px;
 }
 
+.btn-neutral:hover {
+  background-color: black;
+}
+
 .navbar-end {
-  width: 90%;
+  width: 95%;
 }
 
 .content {
