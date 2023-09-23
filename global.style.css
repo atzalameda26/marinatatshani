@@ -55,7 +55,8 @@ footer {
 }
 
 .content .content-overlay {
-  background: rgba(189,195,199,0.5);
+  background: rgba(189,195,199,0.6);
+  border-radius: 10px;
   position: absolute;
   height: 100%;
   width: 100%;
