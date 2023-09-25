@@ -48,6 +48,10 @@ footer {
   width: 95%;
 }
 
+.menu-horizontal > li > a {
+  background-color: #E6E4D4 !important;
+}
+
 .content {
   position: relative;
   margin: auto;
