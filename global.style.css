@@ -1,21 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 body {
-  background:#E6E4D4;
+  background:#FCFAEE;
   font-size: 1rem; /* 16px */
   line-height: 1.5rem; /* 24px */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: black;
   font-weight: 400;
 }
 
 .baseColor {
-  background:#E6E4D4;
+  background:#FCFAEE;
 }
 
 .navbar {
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .main {
@@ -26,20 +30,22 @@ body {
 footer {
   padding-left: 10%;
   padding-right: 10%;
+  background:#A0BE00;
+  color: #285701
 }
 
 .btn-neutral {
-  color: #E9E5D7;
-  background-color: black;
+  color: #FCFAEE;
+  background-color: #285701;
   font-size: 17px;
   font-weight: 500;
   border-radius: 35px;
 }
 
 .btn-neutral:hover {
-  background-color: #E6E4D4;
-  color: #A697AD;
-  border-color: #A697AD;
+  background-color: #FCFAEE;
+  color: #285701;
+  border-color: #285701;
   font-weight: 700;
   border-width: medium;
 }
@@ -49,7 +55,7 @@ footer {
 }
 
 .menu-horizontal > li > a {
-  background-color: #E6E4D4 !important;
+  background-color: #FCFAEE !important;
 }
 
 .content {
@@ -134,4 +140,72 @@ footer {
 
 .fadeIn-right{
   left: 80%;
+}
+
+.content-label{
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.content-label-header{
+  color: #75A801;
+  font-size: large;
+  font-weight: 600;
+}
+
+.content-label-title{
+  color: #000000;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.explore-portfolio{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #285701;
+  color: #FCFAEE;
+}
+
+.portfolio-box{
+  padding-top: 15%;
+  padding-bottom: 30%;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: #000000;
+  /* border-radius: 20%; */
+  border-radius: 6rem;
+  font-weight: 700;
+  font-size: x-large;
+  display: flex;
+  text-align: center;
+  align-items:center;
+  line-height: 1;
+}
+
+.portfolio-box img{
+  padding-top: 10%;
+  display: block;
+  max-height:100%;
+  max-width:100%;
+}
+
+.portfolio-button{
+  display: none;
+  padding-top: 23%;
+  padding-left: 5%;
+  position: absolute;
+}
+
+.portfolio-box:hover > .portfolio-button{
+  display: inline-block;
+}
+
+.multi-text{
+  font-family: "Rubik Bubbles", sans-serif;
+}
+
+.inary-text{
+  font-family: "Dela Gothic One", sans-serif;
 }
