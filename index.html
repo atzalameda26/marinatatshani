@@ -62,9 +62,9 @@
   <div class="main">
     <div class="pt-20 md:pt-40 grid grid-cols-1 gap-2 lg:gap-4">
       <p class="text-4xl lg:text-6xl font-bold">Hey I’m Marina and I am a</p>
-      <div class="lg:flex lg:gap-5">
-        <p class="text-4xl lg:text-6xl">
-          <span class="multi-text">
+      <div class="flex flex-wrap md:gap-3 lg:gap-5">
+        <p class="text-4xl lg:text-6xl flex flex-row">
+          <span class="rubik-bubbles-text">
             multi
           </span>
           <span class="italic">
@@ -73,7 +73,7 @@
           <span class="font-bold">
             cipl
           </span>
-          <span class="inary-text">
+          <span class="dela-gothic-text">
             inary
           </span>
         </p>
@@ -271,29 +271,14 @@
 
   <!-- EXPLORE MY PORTFOLIO -->
   <div class="explore-portfolio">
-    <h1 class="font-bold text-3xl lg:text-4xl pb-10">Explore my Portfolio</h1>
+    <h1 class="font-bold text-2xl md:text-3xl lg:text-4xl pb-10">Explore my Portfolio</h1>
 
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-20 lg:gap-4">
-      <a href="furniture">
-        <div class="grid grid-cols-1 bg-[#DBE65D] portfolio-box">
-          <p>furniture<br/>design</p>
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 md:gap-4 lg:grid-cols-4 ">
+      <a href="graphic">
+        <div class="grid grid-cols-1 bg-[#CBC6FD] portfolio-box">
+          <p>graphic<br/>design</p>
           <img
-            src="images/portfolio/Portfolio-Furniture.jpg"
-            alt="image"
-          >
-          <button class="portfolio-button">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-10 h-10">
-              <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-            </svg>
-          </button>
-        </div>
-      </a>
-
-      <a href="3d">
-        <div class="grid grid-cols-1 bg-[#F7E6C3] portfolio-box">
-          <p>3d<br/>visualization</p>
-          <img
-            src="images/portfolio/Portfolio-3D.jpg"
+            src="images/portfolio/Portfolio-Graphic Design.jpg"
             alt="image"
           >
           <button class="portfolio-button">
@@ -324,6 +309,21 @@
           <p>3d<br/>visualization</p>
           <img
             src="images/portfolio/Portfolio-3D.jpg"
+            alt="image"
+          >
+          <button class="portfolio-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-10 h-10">
+              <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+      </a>
+
+      <a href="web">
+        <div class="grid grid-cols-1 bg-[#F0EFFF] portfolio-box">
+          <p>web<br/>design</p>
+          <img
+            src="images/portfolio/Portfolio-Graphic Design.jpg"
             alt="image"
           >
           <button class="portfolio-button">
@@ -339,21 +339,38 @@
 
   <!-- MY WORK EXPERIENCE -->
   <div class="main">
-    <div class="grid grid-cols-2 py-10">
-      <p class="text-lg lg:text-xl py-10">
-        IMAGE
-      </p>
-      <p class="text-lg lg:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/>
-      </p>
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-0 py-16">
+      <div class="flex justify-center">
+        <img
+          src="images/CTA-Work Experience.svg"
+          alt="image"
+          width="60%"
+          height="60%"
+        >
+      </div>
+      <div class="flex flex-col gap-10 justify-center">
+        <p class="text-xl md:text-2xl lg:text-3xl font-bold">My Work Experience</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco<br/>
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a href="resume">
+          <button class="btn normal-case btn-neutral w-52">
+            explore resume
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+              <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </a>
+      </div>
     </div>
   </div>
 
   <footer class="footer items-center py-14">
     <aside class="items-center grid-flow-row lg:grid-flow-col">
-      <p class="text-2xl lg:text-3xl font-bold pr-10">marinatatshani@gmail.com</p>
+      <p class="text-xl lg:text-2xl font-bold pr-10">marinatatshani@gmail.com</p>
       <div class="flex flex-row gap-4">
         <a href="https://www.instagram.com/by__tatshani/" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">

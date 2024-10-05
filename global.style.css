@@ -202,10 +202,27 @@ footer {
   display: inline-block;
 }
 
-.multi-text{
+.rubik-bubbles-text{
   font-family: "Rubik Bubbles", sans-serif;
 }
 
-.inary-text{
+.dela-gothic-text{
   font-family: "Dela Gothic One", sans-serif;
+}
+
+.about-me-section{
+  background-color: #75A801;
+  color: #FCFAEE;
+}
+
+.about-me-section > div{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  border-width: 1px;
+  border-color: #FCFAEE;;
+}
+
+.about-me-box{
+  background-color: #CBC6FD;
+  border-radius: 15%;
 }

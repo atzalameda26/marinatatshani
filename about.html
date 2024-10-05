@@ -16,35 +16,16 @@
   </head>
   <body>
 
-    <div class="sticky top-0 z-50 navbar baseColor">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost xl:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </label>
-          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-stone-200 rounded-box w-52 font-bold">
-            <li><a href="about" class="hover:text-[#A697AD]">ABOUT</a></li>
-            <li><a href="resume" class="hover:text-[#A697AD]">RESUME</a></li>
-            <li><a href="graphic" class="hover:text-[#A697AD]">GRAPHIC DESIGN</a></li>
-            <li><a href="3d" class="hover:text-[#A697AD]">3D VISUALS</a></li>
-            <li><a href="web" class="hover:text-[#A697AD]">WEB DESIGN</a></li>
-            <li><a href="furniture" class="hover:text-[#A697AD]">FURNITURE</a></li>
-            <!-- <li><a href="blog" class="hover:text-[#A697AD]">BLOG</a></li> -->
-          </ul>
-        </div>
-        <a href=".">
-          <button class="btn btn-ghost w-max normal-case text-xl lg:text-2xl text-[#E2883B] font-bold hover:bg-[#FCFAEE]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-            </svg>
-            marina tatshani
-          </button>
-        </a>
-      </div>
-      <div class="navbar-end hidden xl:flex">
-        <ul class="menu menu-horizontal px-1 font-bold text-base">
+  <!-- NAVBAR -->
+  <div class="sticky top-0 z-50 navbar baseColor">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost xl:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-stone-200 rounded-box w-52 font-bold">
           <li><a href="about" class="hover:text-[#A697AD]">ABOUT</a></li>
           <li><a href="resume" class="hover:text-[#A697AD]">RESUME</a></li>
           <li><a href="graphic" class="hover:text-[#A697AD]">GRAPHIC DESIGN</a></li>
@@ -54,23 +35,53 @@
           <!-- <li><a href="blog" class="hover:text-[#A697AD]">BLOG</a></li> -->
         </ul>
       </div>
+      <a href=".">
+        <button class="btn btn-ghost w-max normal-case text-xl lg:text-2xl text-[#CBC6FD] font-bold hover:bg-[#FCFAEE]">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+          marina tatshani
+        </button>
+      </a>
     </div>
+    <div class="navbar-end hidden xl:flex">
+      <ul class="menu menu-horizontal px-1 font-bold text-base">
+        <li><a href="about" class="hover:text-[#A697AD]">ABOUT</a></li>
+        <li><a href="resume" class="hover:text-[#A697AD]">RESUME</a></li>
+        <li><a href="graphic" class="hover:text-[#A697AD]">GRAPHIC DESIGN</a></li>
+        <li><a href="3d" class="hover:text-[#A697AD]">3D VISUALS</a></li>
+        <li><a href="web" class="hover:text-[#A697AD]">WEB DESIGN</a></li>
+        <li><a href="furniture" class="hover:text-[#A697AD]">FURNITURE</a></li>
+        <!-- <li><a href="blog" class="hover:text-[#A697AD]">BLOG</a></li> -->
+      </ul>
+    </div>
+  </div>
 
   <div class="main">
     <!-- ABOUT ME -->
-    <div class="grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-14 lg:grid-cols-3 lg:gap-24 pt-20 md:pt-40">
+    <div class="grid grid-cols-1 gap-0 md:grid-cols-2 md:gap-10 lg:grid-cols-3 lg:gap-14 pt-10 md:pt-30">
       <div class="col-span-1 pt-16">
         <img
-          src="images/about/Portrait-Arch.png"
+          src="images/about/Portrait-Marina Tatshani.jpg"
           alt="image"
           width="700"
           height="700"
         >
       </div>
-      <div class="col-span-1 lg:col-span-2 flex flex-col">
-        <p class="text-4xl lg:text-6xl font-bold text-[#678309] py-10 lg:py-20">about me</p>
-        <p class="text-xl lg:text-2xl font-bold text-[#A697AD] pb-5">I am a lot of things.</p>
-        <p class="text-base lg:text-lg max-w-3xl">
+      <div class="col-span-1 lg:col-span-2 flex flex-col justify-center">
+        <!-- I AM A LOT OF THINGS -->
+        <p class="text-2xl lg:text-3xl font-bold pb-10 pt-16">
+          <span>
+            I am
+          </span>
+          <span  class="rubik-bubbles-text">
+            a lot
+          </span>
+          <span>
+            of things.
+          </span>
+        </p>
+        <p class="text-base lg:text-lg max-w-3xl pb-20">
           After university in 2017, I worked as a Furniture Designer catering to high-end residential and commercial
           clients that honed my 3D modeling and rendering skills. When the pandemic came in during 2020, I started
           freelancing on the side as a 3D animator that taps small businesses requiring fun and captivating social media
@@ -78,182 +89,161 @@
           After four years in the furniture industry and a year of mixing it with my freelance design gig,
           I eventually landed a position as an Associate Art Director for a Canadian-based startup advertising agency.
         </p>
-      </div>
-    </div>
 
-    <div class="divider py-20"></div>
-
-    <!-- SPECIAL AWARDS -->
-    <div class="grid grid-cols-2 gap-10 md:grid-cols-6 md:gap-5">
-      <div class="col-span-2">
-        <p class="text-xl xl:text-2xl font-bold text-[#678309]">SPECIAL<br/>AWARDS</p>
-      </div>
-      <div class="col-span-4">
-          <p class="text-xl lg:text-2xl font-bold pb-8">→ 2021</p>
-          <div class="grid grid-cols-1 gap-1">
-            <p class="text-xl lg:text-2xl font-bold">
-              International Arts & Design Competition 2021
-            </p>
-            <div class="flex flex-col md:flex-row">
-              <p class="text-base lg:text-lg font-bold text-[#E2883B]">
-                3rd Place Winner&nbsp;
-              </p>
-              <p class="text-base lg:text-lg font-bold">
-                - Professional Category
-              </p>
-            </div>
-            <p class="text-base lg:text-lg text-[#E2883B] font-medium">
-              Furniture Design Category Master Course at Accademia Riaci, Italy
-            </p>
+        <!-- YOGA, CAMPING, CACAO DRINKER ICONS -->
+        <div class="flex flex-row max-w-3xl justify-between">
+          <div class="grid grid-cols-1 gap-4 justify-items-center">
+            <img
+              src="images/about/Icon-Yoga.svg"
+              alt="image"
+              width="70"
+              height="70"
+            >
+            <p class="font-bold md:text-lg">aerial yoga</p>
           </div>
-      </div>
-    </div>
-
-    <div class="divider py-20"></div>
-
-    <!-- EDUCATION -->
-    <div class="grid grid-cols-2 gap-10 md:grid-cols-6 md:gap-5">
-      <div class="col-span-2">
-        <p class="text-xl xl:text-2xl font-bold text-[#678309]">EDUCATION</p>
-      </div>
-      <div class="col-span-2">
-        <p class="text-xl lg:text-2xl font-bold pb-8">→ 2017</p>
-        <div class="flex flex-col">
-          <p class="text-base lg:text-lg font-extrabold">
-            University of Santo Tomas, Philippines
-          </p>
-          <p class="text-base lg:text-lg text-[#E2883B] font-medium">
-            Bachelor of Fine Arts
-          </p>
-          <p class="text-base lg:text-lg text-[#E2883B] font-medium">
-            Major in Industrial Design
-          </p>
-        </div>
-      </div>
-      <div class="col-span-2">
-        <p class="text-xl lg:text-2xl font-bold pb-8">→ 2022</p>
-        <div class="flex flex-col">
-          <p class="text-base lg:text-lg font-extrabold">
-            Accademia Riaci, Italy
-          </p>
-          <p class="text-base lg:text-lg text-[#E2883B] font-medium">
-            12-Weeks Course in Interior Design
-          </p>
+          <div class="grid grid-cols-1 gap-4 justify-items-center">
+            <img
+              src="images/about/Icon-Camping.svg"
+              alt="image"
+              width="95"
+              height="95"
+            >
+            <p class="font-bold md:text-lg">camping</p>
+          </div>
+          <div class="grid grid-cols-1 gap-4 justify-items-center">
+            <img
+              src="images/about/Icon-Cacao.svg"
+              alt="image"
+              width="70"
+              height="70"
+            >
+            <p class="font-bold md:text-lg">cacao drinker</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="divider py-20"></div>
-
-    <!-- PERSONAL -->
-    <div class="grid grid-cols-2 gap-10 md:grid-cols-6 md:gap-5">
-      <div class="col-span-2">
-        <p class="text-xl xl:text-2xl font-bold text-[#678309]">PERSONAL</p>
-      </div>
-      <div class="col-span-2 grid grid-cols-1 gap-5">
-        <div>
-          <p class="text-xl lg:text-2xl font-bold">Age: 26</p>
-          <p class="text-base lg:text-lg">December 9, 1996</p>
-        </div>
-        <div class="flex flex-row">
+    <!-- SPECIAL AWARDS AND EDUCATION -->
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-5 py-16 md:py-28">
+      <!-- SPECIAL AWARDS -->
+      <div class="col-span-1 lg:col-span-2 py-14 pl-14 pr-10 about-me-box">
+        <div class="flex flex-row justify-between items-center pb-5">
+          <p class="font-bold text-2xl md:text-3xl">SPECIAL AWARDS</p>
           <img
-            src="images/about/Sun Icon.png"
+            src="images/about/Icon-Sparkle.svg"
             alt="image"
-            width="25"
-            height="25"
+            width="80"
+            height="80"
           >
-          <p class="font-bold text-lg text-[#A697AD] pl-10 tracking-wider">sagittarius</p>
         </div>
-        <div class="flex flex-row">
-          <img
-            src="images/about/Moon Icon.png"
-            alt="image"
-            width="25"
-            height="25"
-          >
-          <p class="font-bold text-lg text-[#A697AD] pl-10 tracking-wider">scorpio</p>
-        </div>
-        <div class="flex flex-row">
-          <img
-            src="images/about/Rising Icon.png"
-            alt="image"
-            width="25"
-            height="25"
-          >
-          <p class="font-bold text-lg text-[#A697AD] pl-10 tracking-wider">aquarius</p>
+        <div class="flex flex-col gap-5">
+          <p class="font-bold text-xl md:text-2xl">2021</p>
+          <p class="font-bold text-xl md:text-2xl">International Arts &<br/>Design Competition</p>
+          <div class="md:text-lg font-semibold px-3 rounded-full bg-[#75A801] text-center w-fit">
+            3rd Place Winner (Professional Category)
+          </div>
+
+          <p class="text-lg md:text-xl font-semibold ">
+            Prize Received:<br/>
+            Furniture Design Category<br/>
+            Master Course at Accademia Riaci, Italy
+          </p>
         </div>
       </div>
-      <div class="col-span-2 grid grid-cols-1 gap-14 lg:gap-2">
-        <div>
-          <p class="text-xl lg:text-2xl font-bold">Gender/Pronoun</p>
-          <p class="text-base lg:text-lg">She/Her</p>
+
+      <!-- EDUCATION -->
+      <div class="col-span-1 lg:col-span-3 py-14 pl-14 pr-10 about-me-box">
+        <div class="flex flex-row justify-between items-center pb-5">
+          <p class="font-bold text-2xl md:text-3xl">EDUCATION</p>
+          <img
+            src="images/about/Icon-Sparkle.svg"
+            alt="image"
+            width="80"
+            height="80"
+          >
         </div>
-        <div>
-          <p class="text-xl lg:text-2xl font-bold">Ethnicity</p>
-          <p class="text-base lg:text-lg">Filipino</p>
+        <div class="flex flex-col gap-10">
+          <div>
+            <p class="font-bold text-xl md:text-2xl pb-5">2017</p>
+            <p class="font-bold text-xl md:text-2xl">Bachelor of Fine Arts Major in Industrial Design</p>
+            <p class="font-semibold text-lg md:text-xl">University of Santo Tomas, Philippine</p>
+          </div>
+
+          <div>
+            <p class="font-bold text-xl md:text-2xl pb-5">2022</p>
+            <p class="font-bold text-xl md:text-2xl">Interior Design</p>
+            <p class="font-semibold text-lg md:text-xl">12-Weeks Course in Accademia Riaci, Italy</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="divider py-20"></div>
+  </div>
 
-     <!-- INTERESTS + HOBBIES -->
-     <div class="grid grid-cols-2 gap-10 md:grid-cols-6 md:gap-5">
-      <div class="col-span-2">
-        <p class="text-xl xl:text-2xl font-bold text-[#678309]">INTERESTS<br/>+ HOBBIES</p>
-      </div>
-      <div class="grid grid-cols-1 gap-2 justify-items-center">
-        <img
-          src="images/about/Yoga Icon.png"
-          alt="image"
-          width="70"
-          height="70"
-        >
-        <p class="font-bold text-lg text-[#A697AD]">aerial yoga</p>
-      </div>
-      <div class="grid grid-cols-1 gap-2 justify-items-center">
-        <img
-          src="images/about/Camping Icon.png"
-          alt="image"
-          width="95"
-          height="95"
-        >
-        <p class="font-bold text-lg text-[#A697AD]">camping</p>
-      </div>
-      <div class="grid grid-cols-1 gap-2 justify-items-center">
-        <img
-          src="images/about/Cacao Icon.png"
-          alt="image"
-          width="70"
-          height="70"
-        >
-        <p class="font-bold text-lg text-[#A697AD]">cacao drinker</p>
-      </div>
-      <div class="grid grid-cols-1 gap-2 justify-items-center">
-        <img
-          src="images/about/Freedive Icon.png"
-          alt="image"
-          width="70"
-          height="70"
-        >
-        <p class="font-bold text-lg text-[#A697AD]">freediving</p>
-      </div>
+  <!-- ABOUT ME 4 SECTION -->
+  <div class="about-me-section grid grid-cols-1 md:grid-cols-2">
+    <div class="flex flex-col gap-8 pl-10 pr-10 md:pl-20 lg:pl-52">
+      <p class="font-bold text-lg md:text-2xl lg:text-3xl">My definition of fun</p>
+      <p class="md:text-lg">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      </p>
     </div>
+    <div class="flex flex-col gap-8 pl-10 pr-10 md:pl-20 lg:pl-36">
+      <p class="font-bold text-lg md:text-2xl lg:text-3xl">How I spend my weekend</p>
+      <p class="md:text-lg">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      </p>
+    </div>
+    <div class="flex flex-col gap-8 pl-10 pr-10 md:pl-20 lg:pl-52">
+      <p class="font-bold text-lg md:text-2xl lg:text-3xl">What I am not</p>
+      <p class="md:text-lg">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      </p>
+    </div>
+    <div class="flex flex-col gap-8 pl-10 pr-10 md:pl-20 lg:pl-36">
+      <p class="font-bold text-lg md:text-2xl lg:text-3xl">Fun fact about me</p>
+      <p class="md:text-lg">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      </p>
+    </div>
+  </div>
 
-    <div class="divider py-20"></div>
-
-    <!-- VIEW MY RESUME -->
-    <div class="flex flex-col items-center pt-10 pb-40">
-      <p class="text-4xl lg:text-5xl font-bold">view my resume</p>
-      <p class="text-base lg:text-lg font-medium pt-2 pb-5">A summary of my work experience.</p>
-      <a href="resume">
-        <button class="btn normal-case btn-neutral w-48">
-          resume
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-            <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-          </svg>
-        </button>
-      </a>
+  <!-- MY WORK EXPERIENCE -->
+  <div class="main">
+    <div class="grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-0 py-16">
+      <div class="flex justify-center">
+        <img
+          src="images/CTA-Work Experience.svg"
+          alt="image"
+          width="60%"
+          height="60%"
+        >
+      </div>
+      <div class="flex flex-col gap-10 justify-center">
+        <p class="text-xl md:text-2xl lg:text-3xl font-bold">My Work Experience</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco<br/>
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a href="resume">
+          <button class="btn normal-case btn-neutral w-52">
+            explore resume
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+              <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </a>
+      </div>
     </div>
   </div>
 
