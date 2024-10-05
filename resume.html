@@ -4,47 +4,30 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="noindex, nofollow">
 
     <!-- DaisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.6/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="stylesheet" href="./global.style.css">
+    <link rel="stylesheet" href="./carousel.style.css">
 
     <title>marina tatshani</title>
     <link rel="icon" href="images/sun-icon.png" sizes="32x32" type="image/png" />
   </head>
   <body>
 
-    <div class="sticky top-0 z-50 navbar baseColor">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost xl:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </label>
-          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-stone-200 rounded-box w-52 font-bold">
-            <li><a href="about" class="hover:text-[#A697AD]">ABOUT</a></li>
-            <li><a href="resume" class="hover:text-[#A697AD]">RESUME</a></li>
-            <li><a href="graphic" class="hover:text-[#A697AD]">GRAPHIC DESIGN</a></li>
-            <li><a href="3d" class="hover:text-[#A697AD]">3D VISUALS</a></li>
-            <li><a href="web" class="hover:text-[#A697AD]">WEB DESIGN</a></li>
-            <li><a href="furniture" class="hover:text-[#A697AD]">FURNITURE</a></li>
-            <!-- <li><a href="blog" class="hover:text-[#A697AD]">BLOG</a></li> -->
-          </ul>
-        </div>
-        <a href=".">
-          <button class="btn btn-ghost w-max normal-case text-xl lg:text-2xl text-[#E2883B] font-bold hover:bg-[#FCFAEE]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-            </svg>
-            marina tatshani
-          </button>
-        </a>
-      </div>
-      <div class="navbar-end hidden xl:flex">
-        <ul class="menu menu-horizontal px-1 font-bold text-base">
+  <!-- NAVBAR -->
+  <div class="sticky top-0 z-50 navbar baseColor">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost xl:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-stone-200 rounded-box w-52 font-bold">
           <li><a href="about" class="hover:text-[#A697AD]">ABOUT</a></li>
           <li><a href="resume" class="hover:text-[#A697AD]">RESUME</a></li>
           <li><a href="graphic" class="hover:text-[#A697AD]">GRAPHIC DESIGN</a></li>
@@ -54,42 +37,75 @@
           <!-- <li><a href="blog" class="hover:text-[#A697AD]">BLOG</a></li> -->
         </ul>
       </div>
+      <a href=".">
+        <button class="btn btn-ghost w-max normal-case text-xl lg:text-2xl text-[#CBC6FD] font-bold hover:bg-[#FCFAEE]">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+          marina tatshani
+        </button>
+      </a>
     </div>
+    <div class="navbar-end hidden xl:flex">
+      <ul class="menu menu-horizontal px-1 font-bold text-base">
+        <li><a href="about" class="hover:text-[#A697AD]">ABOUT</a></li>
+        <li><a href="resume" class="hover:text-[#A697AD]">RESUME</a></li>
+        <li><a href="graphic" class="hover:text-[#A697AD]">GRAPHIC DESIGN</a></li>
+        <li><a href="3d" class="hover:text-[#A697AD]">3D VISUALS</a></li>
+        <li><a href="web" class="hover:text-[#A697AD]">WEB DESIGN</a></li>
+        <li><a href="furniture" class="hover:text-[#A697AD]">FURNITURE</a></li>
+        <!-- <li><a href="blog" class="hover:text-[#A697AD]">BLOG</a></li> -->
+      </ul>
+    </div>
+  </div>
 
   <div class="main">
     <!-- WORK EXPERIENCE -->
-    <div class="flex flex-col pt-40">
-      <p class="text-[#678309] font-bold text-xl lg:text-2xl pb-5">2017-Present</p>
-      <p class="text-[#678309] font-bold text-5xl lg:text-6xl pb-16">Work Experience</p>
-      <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 pb-28">
-        <div class="grid grid-cols-1 gap-4 justify-items-center">
+    <div class="flex flex-col pt-24">
+      <p class="font-bold text-5xl lg:text-6xl pb-2">Work Experience</p>
+      <!-- I CAN BE A LOT OF THINGS -->
+      <p class="text-2xl lg:text-3xl font-bold">
+        <span>
+          I can be
+        </span>
+        <span  class="rubik-bubbles-text">
+          a lot
+        </span>
+        <span>
+          of things.
+        </span>
+      </p>
+      <!-- RESUME - ICONS -->
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 pt-10 pb-24">
+        <div class="flex flex-col items-center">
           <img
-            src="images/resume/Graphic Design Icon.png"
+            src="images/icons/Icon - Graphic Design.png"
             alt="image"
-            width="60"
-            height="60"
+            width="250"
+            height="250"
           >
-          <p class="font-medium text-xl text-[#678309] text-center">Graphic Designer</p>
+          <p class="font-medium text-xl text-[#75A801] text-center">graphic designer</p>
         </div>
-        <div class="grid grid-cols-1 gap-4 justify-items-center">
+        <div class="flex flex-col items-center">
           <img
-            src="images/resume/3D Visualizer Icon.png"
+            src="images/icons/Icon - 3D.png"
             alt="image"
-            width="60"
-            height="60"
+            width="250"
+            height="250"
           >
-          <p class="font-medium text-xl text-[#678309] text-center">3D Visualizer</p>
+          <p class="font-medium text-xl text-[#75A801] text-center">3d visualizer</p>
         </div>
-        <div class="grid grid-cols-1 gap-4 justify-items-center">
+        <div class="flex flex-col items-center">
           <img
-            src="images/resume/Furniture Design Icon.png"
+            src="images/icons/Icon - Furniture Design.png"
             alt="image"
-            width="40"
-            height="40"
+            width="250"
+            height="250"
           >
-          <p class="font-medium text-xl text-[#678309] text-center">Furniture Designer</p>
+          <p class="font-medium text-xl text-[#75A801] text-center">furniture designer</p>
         </div>
       </div>
+      <!-- DOWNLOAD MY RESUME -->
       <div class="flex flex-col items-center lg:items-start">
         <a href="https://drive.google.com/file/d/1MsrKzGpLZxQS3ZtPOi2n9YuUuUMmN01P/view?fbclid=IwAR2JpwG0VvWnfjEGtdN0HS7gj_1LKT9RcSHwEfNXYJehhLem4xoLNZN1Kc4" target="_blank" class="pb-2">
           <button class="btn normal-case btn-neutral w-72">
@@ -99,184 +115,208 @@
             </svg>
           </button>
         </a>
-        <p class="font-medium text-lg italic">or continue scrolling down...</p>
+        <p class="font-semibold text-xl italic">or continue scrolling down...</p>
       </div>
     </div>
+  </div>
 
-    <div class="divider py-20"></div>
+  <!-- MY WORK FOOTPRINT -->
+  <div class="work-footprint-section py-28">
+    <p class="font-bold text-2xl lg:text-3xl pb-16 pl-8 md:pl-24">My work footprint.</p>
+    <div class="flex flex-row justify-center gap-1 md:gap-5">
+      <!-- BUTTON -->
+      <button class="hidden md:block" onclick="plusSlides(-1)">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#75A801" class="w-10 h-10">
+          <path fill-rule="evenodd" d="M17 10a.75.75 0 01-.75.75H5.612l4.158 3.96a.75.75 0 11-1.04 1.08l-5.5-5.25a.75.75 0 010-1.08l5.5-5.25a.75.75 0 111.04 1.08L5.612 9.25H16.25A.75.75 0 0117 10z" clip-rule="evenodd" />
+        </svg>
+      </button>
 
-    <!-- JMARKETING -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20">
-      <div class="col-span-1 justify-self-center">
-        <img
-          src="images/resume/Jmarketing Llogo.png"
-          alt="image"
-          width="170"
-          height="170"
-        >
-      </div>
-      <div class="col-span-1 lg:col-span-2 flex flex-col">
-        <p class="font-bold text-2xl pb-2">Associate Art Director at The JMarketing</p>
-        <p class="font-semibold text-lg pb-10">May 2021 - Present&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ontario, Canada</p>
-        <div class="text-lg">
-          <ul class="list-disc pl-5">
-            <li>Responsible for the visual style and elements of our corporate clients in Canada and the US.</li>
-            <li>Developing brand content for social media and websites.</li>
-            <li>Designs social media campaigns mostly for corporate projects.</li>
-            <li>Leads the design direction on website projects handed to me (mostly corporate brands such as manufacturing companies in Canada.)</li>
-            <li>Creating graphic design content such as brand logos, design assets for websites, and brand identity.</li>
-            <li>Creates motion graphic design content mostly for social media campaigns.</li>
-          </ul>
+      <div class="flex flex-col">
+        <!-- JOB SLIDESHOW -->
+        <div class="slideshow-container pb-6">
+
+          <div class="mySlides fade">
+            <!-- JMARKETING -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20 work-card py-10 px-10">
+              <div class="col-span-1 justify-self-center">
+                <img
+                  src="images/resume/Jmarketing Llogo.png"
+                  alt="image"
+                  width="170"
+                  height="170"
+                >
+              </div>
+              <div class="col-span-1 lg:col-span-2 flex flex-col">
+                <p class="font-bold text-2xl pb-2">Associate Art Director at The JMarketing</p>
+                <p class="font-semibold text-lg pb-10">May 2021 - Present&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ontario, Canada</p>
+                <div class="text-lg">
+                  <ul class="list-disc pl-5">
+                    <li>Responsible for the visual style and elements of our corporate clients in Canada and the US.</li>
+                    <li>Developing brand content for social media and websites.</li>
+                    <li>Designs social media campaigns mostly for corporate projects.</li>
+                    <li>Leads the design direction on website projects handed to me (mostly corporate brands such as manufacturing companies in Canada.)</li>
+                    <li>Creating graphic design content such as brand logos, design assets for websites, and brand identity.</li>
+                    <li>Creates motion graphic design content mostly for social media campaigns.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <!-- BY TATSHANI -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20 work-card py-10 px-10">
+              <div class="col-span-1 justify-self-center">
+                <img
+                  src="images/resume/By Tatshani Logo.png"
+                  alt="image"
+                  width="120"
+                  height="120"
+                >
+              </div>
+              <div class="col-span-1 lg:col-span-2 flex flex-col">
+                <p class="font-bold text-2xl pb-2">Freelance Designer at By Tatshani</p>
+                <p class="font-semibold text-lg pb-10">June 2020 - Present&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philippines</p>
+                <div class="text-lg">
+                  <ul class="list-disc pl-5">
+                    <li>Produces 3D animations and product renders catering to small businesses for their social media content posts.</li>
+                    <li>Produces graphic design content and designs the brand identity of small businesses in the Philippines (such as logo design, brand book and the likes.)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <!-- CASA SELMA -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20 work-card py-10 px-10">
+              <div class="col-span-1 justify-self-center">
+                <img
+                  src="images/resume/Casa Selma Logo.png"
+                  alt="image"
+                  width="130"
+                  height="130"
+                >
+              </div>
+              <div class="col-span-1 lg:col-span-2 flex flex-col">
+                <p class="font-bold text-2xl pb-2">Furniture Designer at Casa Selma</p>
+                <p class="font-semibold text-lg pb-10">May 2018 - May 2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cebu, Philippines</p>
+                <div class="text-lg">
+                  <ul class="list-disc pl-5">
+                    <li>Create and conceptualizes new product designs for home furniture, lighting, home accessories etc.</li>
+                    <li>Produces 3D model designs of furniture and interior spaces.</li>
+                    <li>Manage and supervise furniture and design projects for both residential and commercial projects in the Philippines.</li>
+                    <li>Prepares initial AutoCad drawings for manufacturing.</li>
+                    <li>Coordinates with suppliers and contractors in managing projects.</li>
+                    <li>Designed major projects under the Vito Selma brand for Okada Manila, Rosche Bobois, Ayala Malls, and Vogue Italia.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <!-- STUDIO ATD -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20 work-card py-10 px-10">
+              <div class="col-span-1 justify-self-center">
+                <img
+                  src="images/resume/ATD Logo.png"
+                  alt="image"
+                  width="140"
+                  height="140"
+                >
+              </div>
+              <div class="col-span-1 lg:col-span-2 flex flex-col">
+                <p class="font-bold text-2xl pb-2">Furniture Designer at Studio ATD</p>
+                <p class="font-semibold text-lg pb-10">October 2017 - May 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manila, Philippines</p>
+                <div class="text-lg">
+                  <ul class="list-disc pl-5">
+                    <li>Coordinates with the company's partner in China for the design production.</li>
+                    <li>Conceptualizes the design for office furniture (global market) and home furniture (local market) designs.</li>
+                    <li>Creates sketches, 3D models, and rendered photos for each furniture design.</li>
+                    <li>Prepares AutoCad drawings for quotations and production.</li>
+                    <li>Responsible for the overall visual design and direction.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- NEXT and PREV -->
+          <a class="prev block md:hidden" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next block md:hidden" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <!-- DOTS/CIRCLE -->
+        <div class="text-center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
         </div>
       </div>
+
+      <!-- BUTTON -->
+      <button class="hidden md:block" onclick="plusSlides(1)">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#75A801" class="w-10 h-10">
+          <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
+        </svg>
+      </button>
     </div>
 
-    <div class="py-20"></div>
+  </div>
 
-    <!-- BY TATSHANI -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20">
-      <div class="col-span-1 justify-self-center">
-        <img
-          src="images/resume/By Tatshani Logo.png"
-          alt="image"
-          width="120"
-          height="120"
-        >
-      </div>
-      <div class="col-span-1 lg:col-span-2 flex flex-col">
-        <p class="font-bold text-2xl pb-2">Freelance Designer at By Tatshani</p>
-        <p class="font-semibold text-lg pb-10">June 2020 - Present&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philippines</p>
-        <div class="text-lg">
-          <ul class="list-disc pl-5">
-            <li>Produces 3D animations and product renders catering to small businesses for their social media content posts.</li>
-            <li>Produces graphic design content and designs the brand identity of small businesses in the Philippines (such as logo design, brand book and the likes.)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="py-20"></div>
-
-    <!-- CASA SELMA -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20">
-      <div class="col-span-1 justify-self-center">
-        <img
-          src="images/resume/Casa Selma Logo.png"
-          alt="image"
-          width="130"
-          height="130"
-        >
-      </div>
-      <div class="col-span-1 lg:col-span-2 flex flex-col">
-        <p class="font-bold text-2xl pb-2">Furniture Designer at Casa Selma</p>
-        <p class="font-semibold text-lg pb-10">May 2018 - May 2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cebu, Philippines</p>
-        <div class="text-lg">
-          <ul class="list-disc pl-5">
-            <li>Create and conceptualizes new product designs for home furniture, lighting, home accessories etc.</li>
-            <li>Produces 3D model designs of furniture and interior spaces.</li>
-            <li>Manage and supervise furniture and design projects for both residential and commercial projects in the Philippines.</li>
-            <li>Prepares initial AutoCad drawings for manufacturing.</li>
-            <li>Coordinates with suppliers and contractors in managing projects.</li>
-            <li>Designed major projects under the Vito Selma brand for Okada Manila, Rosche Bobois, Ayala Malls, and Vogue Italia.</li>
-          </ul>
-        </div>
+  <!-- SKILLS EXPERTISE SECTION -->
+  <div class="skills-expertise-section">
+    <p class="font-bold text-2xl lg:text-3xl pb-16">Skills & Expertise</p>
+    <div class="flex flex-col items-center gap-5 lg:flex-row lg:justify-between">
+      <img
+        src="images/CTA-Work Experience.svg"
+        alt="image"
+        width="400"
+        height="400"
+      >
+      <div class="flex flex-col text-end">
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">passion.</p>
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">curiosity.</p>
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">leadership.</p>
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">prioritization.</p>
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">collaboration.</p>
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">problem solver.</p>
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">communication.</p>
+        <p class="font-bold text-4xl md:text-5xl lg:text-6xl hover:text-[#CBC6FD]">open to criticism.</p>
       </div>
     </div>
 
-    <div class="py-20"></div>
-
-    <!-- STUDIO ATD -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-16 lg:gap-20">
-      <div class="col-span-1 justify-self-center">
-        <img
-          src="images/resume/ATD Logo.png"
-          alt="image"
-          width="140"
-          height="140"
-        >
-      </div>
-      <div class="col-span-1 lg:col-span-2 flex flex-col">
-        <p class="font-bold text-2xl pb-2">Furniture Designer at Studio ATD</p>
-        <p class="font-semibold text-lg pb-10">October 2017 - May 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manila, Philippines</p>
-        <div class="text-lg">
-          <ul class="list-disc pl-5">
-            <li>Coordinates with the company's partner in China for the design production.</li>
-            <li>Conceptualizes the design for office furniture (global market) and home furniture (local market) designs.</li>
-            <li>Creates sketches, 3D models, and rendered photos for each furniture design.</li>
-            <li>Prepares AutoCad drawings for quotations and production.</li>
-            <li>Responsible for the overall visual design and direction.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="divider py-20"></div>
-
-    <p class="text-[#678309] font-bold text-5xl lg:text-6xl pt-10 pb-20">Skills & Expertise</p>
-
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 justify-items-center lg: justify-items-start">
+    <div class="grid grid-cols-1 gap-10 justify-items-center lg:grid-cols-4 lg:gap-5 lg:justify-items-start pt-28 pb-20">
       <!-- SOFTWARES -->
       <div>
-        <div class="flex flex-col">
-          <img
-            src="images/resume/mountain (1).png"
-            alt="image"
-            width="50"
-            height="50"
-          >
-          <p class="font-bold text-2xl pb-10">Softwares</p>
-        </div>
+        <p class="font-bold text-2xl pb-6">Softwares</p>
         <div class="text-lg">
           <ul>
             <li>Adobe Photoshop</li>
             <li>Adobe Illustrator</li>
             <li>Adobe After Effects</li>
             <li>Adobe Premiere Pro</li>
+            <li>Adobe Indesign</li>
             <li>Adobe XD</li>
+            <li>Figma</li>
             <li>3DS Max</li>
             <li>Blender</li>
             <li>Corona Renderer</li>
-            <li>Figma</li>
+            <li>Procreate</li>
           </ul>
         </div>
       </div>
-       <!-- MANAGEMENT APPS -->
-       <div>
-        <div class="flex flex-col">
-          <img
-            src="images/resume/mountain (1).png"
-            alt="image"
-            width="50"
-            height="50"
-          >
-          <p class="font-bold text-2xl pb-10">Management<br/>Apps</p>
-        </div>
+      <!-- EXPERTISE -->
+      <div>
+        <p class="font-bold text-2xl pb-6">Expertise</p>
         <div class="text-lg">
           <ul>
-            <li>Microsoft 365</li>
-            <li>Outlook</li>
-            <li>Google Workspace</li>
-            <li>ClickUp</li>
-            <li>Notion</li>
-          </ul>
-        </div>
-      </div>
-       <!-- EXPERTISE -->
-       <div>
-        <div class="flex flex-col">
-          <img
-            src="images/resume/mountain (1).png"
-            alt="image"
-            width="50"
-            height="50"
-          >
-          <p class="font-bold text-2xl pb-10">Expertise</p>
-        </div>
-        <div class="text-lg">
-          <ul>
+            <li>Visual Design</li>
             <li>Graphic Design</li>
             <li>Motion GFX</li>
-            <li>Website Design</li>
+            <li>UI Design</li>
             <li>Corporate Branding</li>
             <li>Campaign Ads</li>
             <li>Social Media Content</li>
@@ -286,64 +326,38 @@
           </ul>
         </div>
       </div>
-       <!-- INTERPERSONAL -->
-       <div>
-        <div class="flex flex-col">
-          <img
-            src="images/resume/mountain (1).png"
-            alt="image"
-            width="50"
-            height="50"
-          >
-          <p class="font-bold text-2xl pb-10">Interpersonal</p>
-        </div>
-        <div class="text-lg">
-          <ul>
-            <li>Collaboration</li>
-            <li>Problem Solving</li>
-            <li>Time Management</li>
-            <li>Communication</li>
-            <li>Creativity</li>
-            <li>Leadership</li>
-            <li>Open to Criticism</li>
-          </ul>
-        </div>
+      <!-- MANAGEMENT APPS and WILLING TO LEARN? -->
+      <div class="flex flex-col gap-10">
+         <div>
+           <p class="font-bold text-2xl pb-6">Management Apps</p>
+           <div class="text-lg">
+             <ul>
+               <li>Microsoft 365</li>
+               <li>Outlook</li>
+               <li>Google Workspace</li>
+               <li>ClickUp</li>
+               <li>Notion</li>
+             </ul>
+           </div>
+         </div>
+         <div>
+           <p class="font-bold text-2xl pb-6">Willing to learn?</p>
+           <p class="text-lg">Yes</p>
+         </div>
       </div>
-    </div>
-
-    <div class="divider py-20"></div>
-
-    <!-- LEARN MORE ABOUT ME & RESUME -->
-    <div class="flex flex-col pt-10 pb-40">
-      <!-- LEARN MORE ABOUT ME -->
-      <div class="grid grid-cols-1 gap-2">
-        <p class="text-xl xl:text-2xl font-bold text-[#678309]">LEARN MORE ABOUT ME</p>
-        <p class="text-base">Who I am, my achievements, interests, and experiences.</p>
-        <a href="about">
-          <button class="btn normal-case btn-neutral w-48">
-            about me
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-              <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-            </svg>
-          </button>
-        </a>
-      </div>
-      <!-- OR DOWNLOAD MY RESUME -->
-      <div class="grid grid-cols-1 gap-2 pt-10">
-        <p class="text-xl xl:text-2xl font-bold text-[#678309]">OR DOWNLOAD MY RESUME</p>
-        <p class="text-base">Download my resume in PDF format.</p>
-        <a href="https://drive.google.com/file/d/1MsrKzGpLZxQS3ZtPOi2n9YuUuUMmN01P/view?fbclid=IwAR2JpwG0VvWnfjEGtdN0HS7gj_1LKT9RcSHwEfNXYJehhLem4xoLNZN1Kc4" target="_blank">
-          <button class="btn normal-case btn-neutral w-72">
-            download my resume
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-              <path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd" />
-            </svg>
-          </button>
-        </a>
+      <!-- FURNITURE IMAGE ASSET -->
+      <div>
+        <img
+          src="images/resume/Furniture Image Asset.jpg"
+          alt="image"
+          width="400"
+          height="400"
+        >
       </div>
     </div>
   </div>
 
+  <!-- FOOTER -->
   <footer class="footer items-center py-14">
     <aside class="items-center grid-flow-row lg:grid-flow-col">
       <p class="text-xl lg:text-2xl font-bold pr-10">marinatatshani@gmail.com</p>
@@ -367,6 +381,37 @@
       </div>
     </nav>
   </footer>
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
 
   </body>
 </html>

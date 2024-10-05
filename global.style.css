@@ -219,10 +219,29 @@ footer {
   padding-top: 7%;
   padding-bottom: 7%;
   border-width: 1px;
-  border-color: #FCFAEE;;
+  border-color: #FCFAEE;
 }
 
 .about-me-box{
   background-color: #CBC6FD;
   border-radius: 15%;
+}
+
+.skills-expertise-section{
+  padding-left: 12%;
+  padding-right: 13%;
+  padding-top: 5%;
+  background-color: #FFEDBC;
+  color: #000000;
+}
+
+.work-footprint-section{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.work-card{
+  border-radius: 5%;
+  border-width: 2px;
+  border-color: #75A801;
 }
