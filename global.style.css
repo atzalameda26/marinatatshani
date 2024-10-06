@@ -155,8 +155,9 @@ footer {
 
 .content-label-title{
   color: #000000;
-  font-size: x-large;
-  font-weight: 900;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
 }
 
 .explore-portfolio{
@@ -174,32 +175,55 @@ footer {
   padding-left: 15%;
   padding-right: 15%;
   color: #000000;
-  /* border-radius: 20%; */
-  border-radius: 6rem;
   font-weight: 700;
-  font-size: x-large;
   display: flex;
   text-align: center;
-  align-items:center;
-  line-height: 1;
+  align-items: center;
+  height: 100%;
+  position: relative;
 }
 
 .portfolio-box img{
   padding-top: 10%;
   display: block;
-  max-height:100%;
-  max-width:100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .portfolio-button{
   display: none;
-  padding-top: 23%;
-  padding-left: 5%;
   position: absolute;
+  text-align: center;
+  bottom: 8%;
+  left: 45%;
+}
+
+.portfolio-arrow{
+  width: 2.5rem;
+  height: 2.5rem;;
 }
 
 .portfolio-box:hover > .portfolio-button{
-  display: inline-block;
+  display: block;
+}
+
+/* Media query for smaller screens */
+/* SM */
+@media (max-width: 640px) {
+  .portfolio-button {
+    bottom: 5%;
+    left: 40%;
+  }
+
+  .portfolio-arrow{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .content-label-title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 .rubik-bubbles-text{
