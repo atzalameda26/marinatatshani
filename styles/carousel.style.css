@@ -64,7 +64,7 @@
     border-radius: 3px 0 0 3px;
 }
 
-/* SLIDESHOW FOR GRAPHIC PAGE */
+/* SLIDESHOW */
 
 .slideshow-container-graphic {
     position: relative;
@@ -99,5 +99,9 @@
 
 /* Hide the images by default */
 .mySlides-goo, .mySlides-ffafFrames, .mySlides-ffafAd, .mySlides-dune, .mySlides-llgAds, .mySlides-timberline {
+    display: none;
+}
+
+.mySlides-nextgen, .mySlides-sequel, .mySlides-llg, .mySlides-srl {
     display: none;
 }

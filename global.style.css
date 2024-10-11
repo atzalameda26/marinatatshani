@@ -144,7 +144,7 @@ footer {
 
 .content-label{
   margin-top: 2%;
-  margin-left: 4%;
+  margin-left: 3%;
 }
 
 .content-label-header{
@@ -158,6 +158,17 @@ footer {
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 800;
+}
+
+.web-label-title{
+  color: #000000;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 800;
+}
+
+.web-label-title:hover{
+  color: #75A801;
 }
 
 .explore-portfolio{
@@ -207,25 +218,6 @@ footer {
   display: block;
 }
 
-/* Media query for smaller screens */
-/* SM */
-@media (max-width: 640px) {
-  .portfolio-button {
-    bottom: 5%;
-    left: 40%;
-  }
-
-  .portfolio-arrow{
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .content-label-title{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
-
 .rubik-bubbles-text{
   font-family: "Rubik Bubbles", sans-serif;
 }
@@ -265,7 +257,34 @@ footer {
 }
 
 .work-card{
-  border-radius: 5%;
   border-width: 2px;
   border-color: #75A801;
+}
+
+/* Media query for smaller screens */
+/* SM */
+@media (max-width: 640px) {
+  .portfolio-button {
+    bottom: 5%;
+    left: 40%;
+  }
+
+  .portfolio-arrow{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .content-label-title{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .about-me-box{
+    border-radius: 5%;
+  }
+
+  .web-label-title{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
